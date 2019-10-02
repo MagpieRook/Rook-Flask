@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+gunicorn = "*"
+wheel = "*"
+psycopg2-binary = "*"
+flask-sqlalchemy = "*"
+alembic = "*"
+celery = "*"
+redis = "*"
+flask-wtf = "*"
+flask-login = "*"
+
+[requires]
+python_version = "3.7"
